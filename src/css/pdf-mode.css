@@ -1,0 +1,106 @@
+.pdf-mode {
+  all: initial !important;
+  font-family: Arial, sans-serif !important;
+  page-break-before: avoid !important;
+  page-break-after: avoid !important;
+  page-break-inside: avoid !important;
+}
+
+.pdf-mode .resume-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 15mm !important;
+  margin: 0 !important;
+  display: block !important;
+  box-shadow: none !important;
+  background: white !important;
+  font-size: 11pt !important;
+  line-height: 1.4 !important;
+}
+
+.pdf-mode [class^="column-"] {
+  width: 100% !important;
+  display: block !important;
+  float: none !important;
+  margin: 0.5mm !important;
+  padding: 0 !important;
+  page-break-inside: avoid !important;
+  background: transparent !important;
+  border: 1px solid #eee !important;
+  border-radius: 0 !important;
+}
+
+.pdf-mode .column-header,
+.pdf-mode .column-languages,
+.pdf-mode .column-experience {
+  padding: 1mm !important;
+}
+
+.pdf-mode .column-tools {
+  margin: 40mm 0 0 0 !important;
+}
+
+.pdf-mode .column-education {
+  margin: 110mm 0 0 0 !important;
+  padding: 5mm !important;
+}
+
+.pdf-mode h1 {
+  font-size: 18pt !important;
+  margin: 0 0 3mm 0 !important;
+  color: black !important;
+}
+
+.pdf-mode h2 {
+  font-size: 14pt !important;
+  margin: 0 0 2mm 0 !important;
+  color: #333 !important;
+}
+
+.pdf-mode h3 {
+  font-size: 12pt !important;
+  margin: 0 0 2mm 0 !important;
+  color: #555 !important;
+  border-bottom: 1px solid #ddd !important;
+  padding-bottom: 1mm !important;
+}
+
+.pdf-mode .job {
+  display: block !important;
+  margin: 0 0 5mm 0 !important;
+  padding: 0 0 0 3mm !important;
+  border-left: 3px solid #28d979 !important;
+}
+
+ы.pdf-mode .courses {
+  display: block !important;
+}
+
+.pdf-mode .courses > div {
+  display: block !important;
+  margin: 0 0 5mm 0 !important;
+  padding: 0 !important;
+}
+
+.pdf-mode .interests span {
+  display: inline-block;
+  margin: 0 2mm 2mm 0 !important;
+  padding: 1mm 2mm !important;
+  background: #f5f5f5 !important;
+}
+
+.pdf-mode .contacts {
+  text-align: center !important;
+  background: black !important;
+}
+
+.pdf-mode .download-btn,
+.pdf-mode .editable:hover,
+.pdf-mode .editable:focus {
+  display: none !important;
+}
+
+.pdf-mode .editable {
+  margin: 0.4mm !important;
+  padding: 0.4mm !important;
+}

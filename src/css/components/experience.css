@@ -1,3 +1,9 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .job {
   background-color: var(--background);
   border-radius: 10px;

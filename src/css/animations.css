@@ -1,12 +1,58 @@
+.content-updated {
+  animation: highlightUpdate 0.8s ease;
+}
+
+.editable:hover {
+  outline: 2px dashed var(--accent);
+  cursor: text;
+}
+
+.editable:focus {
+  outline: 2px solid var(--highlight);
+  background-color: rgba(241, 196, 15, 0.1);
+}
+
+.most-recent {
+  transition: all 0.3s ease;
+  animation: pulse-highlight 1.5s ease;
+}
+
+.favorite {
+  transition: all 0.3s ease;
+  animation: pulse-favorite 1.5s ease;
+}
+
 @keyframes highlightUpdate {
   0% {
     background-color: rgba(241, 196, 15, 0.3);
+    transform: scale(1.02);
   }
   100% {
     background-color: transparent;
+    transform: scale(1);
   }
 }
 
-.content-updated {
-  animation: highlightUpdate 1.5s ease;
+@keyframes pulse-highlight {
+  0% {
+    box-shadow: 0 0 0 0 rgba(40, 217, 121, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(40, 217, 121, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(40, 217, 121, 0);
+  }
+}
+
+@keyframes pulse-favorite {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
