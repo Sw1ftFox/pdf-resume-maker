@@ -1,0 +1,20 @@
+.interests {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.interests div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interests span {
+  background: var(--secondary);
+  color: var(--text);
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}

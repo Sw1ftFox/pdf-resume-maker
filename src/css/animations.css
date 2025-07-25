@@ -1,0 +1,12 @@
+@keyframes highlightUpdate {
+  0% {
+    background-color: rgba(241, 196, 15, 0.3);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.content-updated {
+  animation: highlightUpdate 1.5s ease;
+}

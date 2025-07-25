@@ -1,0 +1,7 @@
+.column-avatar img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px var(--shadow);
+}

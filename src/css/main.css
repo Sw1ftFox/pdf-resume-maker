@@ -1,0 +1,30 @@
+:root {
+  --primary: #f0f0f0;
+  --secondary: #ffffff;
+  --accent: #28d979;
+  --highlight: #ddf163;
+  --attention: #000000;
+  --text: #000000;
+  --dark-gray: #5c5c5c;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --background: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+section h3 {
+  font-size: 1.6rem;
+  color: var(--text);
+}

@@ -1,0 +1,16 @@
+.editable {
+  transition: all 0.3s ease;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.editable:hover {
+  background: rgba(2, 138, 90, 0.1);
+  outline: 2px dashed var(--secondary);
+  cursor: text;
+}
+
+.editable:focus {
+  background: rgba(241, 196, 15, 0.2);
+  outline: 2px solid var(--highlight);
+}

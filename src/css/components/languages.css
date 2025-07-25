@@ -1,0 +1,15 @@
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.languages ul {
+  list-style: none;
+}
+
+.languages li {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
