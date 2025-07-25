@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/tbank-resume/",
+  base: "/pdf-resume-maker/",
   build: {
     rollupOptions: {
       input: "/src/index.html",
