@@ -4,7 +4,7 @@ export default defineConfig({
   base: "/pdf-resume-maker/",
   build: {
     rollupOptions: {
-      input: "/src/index.html",
+      input: "/index.html",
     },
   },
 });
